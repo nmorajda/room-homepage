@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Frontend Mentor | Room homepage</title>
+</head>
+
+<body>
+  <div class="header__hero-wrapper">
+    <header class="header" id="header">
+      <div class="header__navbar container">
+
+        <button class="btn btn--toggle display--mobile" id="btnToggleNavigation"></button>
+        <div class="header__logo">
+          <img src="images/logo.svg" alt="Logo">
+        </div>
+        <nav class="header__nav">
+          <a href="#" class="cool-link">Home</a>
+          <a href="#" class="cool-link">Shop</a>
+          <a href="#" class="cool-link">About</a>
+          <a href="#" class="cool-link">Contact</a>
+        </nav>
+      </div>
+
+      <div class="header__image-wrapper">
+        <picture>
+          <source media="(min-width: 370px)" srcset="images/desktop-image-hero-1.jpg">
+          <img src="images/mobile-image-hero-1.jpg" alt="Hero image">
+        </picture>
+        <picture>
+          <source media="(min-width: 370px)" srcset="images/desktop-image-hero-2.jpg">
+          <img src="images/mobile-image-hero-2.jpg" alt="Hero image">
+        </picture>
+        <picture>
+          <source media="(min-width: 370px)" srcset="images/desktop-image-hero-3.jpg">
+          <img src="images/mobile-image-hero-3.jpg" alt="Hero image">
+        </picture>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero__text-wrapper">
+        <div class="hero__item">
+          <h1 class="hero__title">Discover innovative ways to decorate</h1>
+          <p class="hero__paragraph">We provide unmatched quality, comfort, and style for property owners across the
+            country. Our experts combine form and function in bringing your vision to life. Create a room in your
+            own style with our collection and make your property a reflection of you and what you love.</p>
+          <button class="btn btn--cta">Shop now</button>
+        </div>
+        <div class="hero__item">
+          <h1 class="hero__title">We are available all across the globe</h1>
+          <p class="hero__paragraph">With stores all over the world, it's easy for you to find furniture for your home
+            or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest
+            you using our store locator. Any questions? Don't hesitate to contact us today.</p>
+          <button class="btn btn--cta">Shop now</button>
+        </div>
+        <div class="hero__item">
+          <h1 class="hero__title">Manufactured with the best materials</h1>
+          <p class="hero__paragraph">Our modern furniture store provide a high level of quality. Our company has
+            invested in advanced technology to ensure that every product is made as perfect and as consistent as
+            possible. With three decades of experience in this industry, we understand what customers want for their
+            home and office.</p>
+          <button class="btn btn--cta">Shop now</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <main class="main">
+    <!-- about start-->
+    <section class="about">
+      <img src="images/image-about-dark.jpg" alt="Dark Image">
+
+      <div class="about__text">
+        <h2 class="about__title">About our furniture</h2>
+        <p class="about__paragraph">Our multifunctional collection blends design and function to suit your individual
+          taste. Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+
+      <img src="images/image-about-light.jpg" alt="Light Image">
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="cool-link">Frontend
+        Mentor</a>.
+      Coded by <a href="https://github.com/nmorajda" class="cool-link">N. Morajda</a>.
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
