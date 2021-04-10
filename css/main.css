@@ -124,11 +124,25 @@ img {
           transform: scale(0.75);
 }
 
+@media (min-width: 800px) {
+  .btn--prev:before {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 .btn--next:before {
   content: url("../images/icon-angle-right.svg");
   display: block;
   -webkit-transform: scale(0.75);
           transform: scale(0.75);
+}
+
+@media (min-width: 800px) {
+  .btn--next:before {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 .btn--cta {

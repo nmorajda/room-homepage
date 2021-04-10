@@ -120,6 +120,11 @@ img {
             content: url('../images/icon-angle-left.svg');
             display: block;
             transform: scale(.75);
+
+            @media (min-width: $breakpoint)
+            {
+                transform: scale(1);
+            }
         }
     }    
 
@@ -128,6 +133,11 @@ img {
             content: url('../images/icon-angle-right.svg');
             display: block;
             transform: scale(.75);
+
+            @media (min-width: $breakpoint)
+            {
+                transform: scale(1);
+            }
         }
     }
 
